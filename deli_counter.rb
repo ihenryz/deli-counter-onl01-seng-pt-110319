@@ -7,7 +7,7 @@ def line(katz_deli)
     updated = katz_deli.map.with_index do |customer, index|
       " #{index + 1}. #{customer}"
     end
-    puts "The line is currently:" + updated.join
+    puts "The line is currently:" << updated.join
   end
    
   #   position = 0   
